@@ -1,0 +1,23 @@
+{
+    "name": "yoelfme/container",
+    "description": "This is a demo IoC container, please do NOT use it in production",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yoel Monzon",
+            "email": "yoelfme@hotmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "phpunit/phpunit": "^5.2",
+        "mockery/mockery": "^0.9.4"
+    },
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Styde\\Container\\": "src/"
+        }
+    }
+}
